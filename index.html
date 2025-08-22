@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Audit Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <div class="logo">🌐 AuditTool</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#audit">Audit</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Boost Your Website's Performance & Security</h1>
+        <p>Check your website for vulnerabilities, SEO issues, and performance bottlenecks instantly.</p>
+        <a href="imageicon1.png" class="btn-primary">Run Audit Now</a>
+        <img src="audit.png" alt="Audit Icon" class="hero-img">
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2>About Website Audit Tool</h2>
+        <p>Our tool provides a comprehensive health check for your website. Identify issues in security, SEO, performance, and accessibility, all in one place. Get actionable recommendations to improve your website instantly.</p>
+        <div class="about-cards">
+            <div class="card">
+                <img src="secure.png" alt="Secure icon" class="card-img">
+                <h3>Secure</h3>
+                <p>Detect potential security vulnerabilities like SQL injection, XSS, and weak SSL configurations.</p>
+            </div>
+            <div class="card">
+                <img src="optimisedimage.png" alt="Optimised icon" class="card-img">
+                <h3>Optimized</h3>
+                <p>Find SEO gaps such as missing meta tags, broken links, and slow-loading pages.</p>
+            </div>
+            <div class="card">
+                <img src="access.png" alt="Accessible icon" class="card-img">
+                <h3>Accessible</h3>
+                 <p>Ensure your website is accessible to all users, with proper contrast, ARIA tags, and navigation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>Comprehensive security scanning</li>
+            <li>SEO analysis with actionable recommendations</li>
+            <li>Performance metrics with optimization tips</li>
+            <li>Accessibility compliance checks</li>
+            <li>Easy-to-understand visual reports</li>
+        </ul>
+    </section>
+
+    <!-- Audit Form Section -->
+    <section id="audit" class="section audit-form-section">
+        <h2>Run Your Website Audit</h2>
+        <p>Enter your website URL below to start the audit:</p>
+        <form id="auditForm">
+            <input type="url" id="websiteUrl" placeholder="Enter website URL (e.g. https://example.com)" required>
+            <button type="submit">Run Audit</button>
+        </form>
+    </section>
+
+    <!-- Audit Results Section -->
+    <section class="section results-section" id="resultsSection">
+        <h2>Audit Results</h2>
+        <div id="results" class="results-container">
+            <!-- Results will appear here dynamically -->
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>How fast is the audit?</h3>
+            <p>The audit usually takes a few seconds depending on your website size and server response.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Is my data safe?</h3>
+            <p>Yes, we do not store any sensitive data. All checks are done securely in real-time.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Do I need an account?</h3>
+            <p>No account is needed. Simply enter your URL and get the audit results instantly.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out:</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Website Audit Tool | Follow us on 
+            <a href="#">Twitter</a>, <a href="#">LinkedIn</a>, <a href="#">GitHub</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

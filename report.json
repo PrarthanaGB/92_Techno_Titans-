@@ -1,0 +1,62 @@
+{
+  "results": [
+    {
+      "icon": "✅",
+      "title": "Performance",
+      "message": "Website loads fast",
+      "status": "Pass",
+      "details": {
+        "pageLoadTime": "1.2s",
+        "largestContentfulPaint": "1.5s",
+        "firstContentfulPaint": "0.8s"
+      }
+    },
+    {
+      "icon": "❌",
+      "title": "Security",
+      "message": "No HTTPS",
+      "status": "Fail",
+      "details": {
+        "https": false,
+        "vulnerabilities": [
+          "Missing SSL certificate",
+          "Connection not secure"
+        ]
+      }
+    },
+    {
+      "icon": "✅",
+      "title": "SEO",
+      "message": "Basic SEO checks passed",
+      "status": "Pass",
+      "details": {
+        "metaDescription": true,
+        "titleTag": true,
+        "h1Tag": true,
+        "imageAlt": true
+      }
+    },
+    {
+      "icon": "⚠",
+      "title": "Accessibility",
+      "message": "Some accessibility issues found",
+      "status": "Warning",
+      "details": {
+        "contrastIssues": 2,
+        "missingAltText": 1,
+        "keyboardNavigation": true
+      }
+    },
+    {
+      "icon": "✅",
+      "title": "Best Practices",
+      "message": "Website follows modern best practices",
+      "status": "Pass",
+      "details": {
+        "responsiveDesign": true,
+        "noConsoleErrors": true,
+        "usesHTTPS": false
+      }
+    }
+  ]
+}
